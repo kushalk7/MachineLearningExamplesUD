@@ -30,7 +30,7 @@ clf = clf.fit(features_train,labels_train)
 #         count += 1;
 #
 # print count/len(result) * 100
-print "Accuracy: {}", clf.score(features_test,labels_test)
+print "Accuracy: ", clf.score(features_test,labels_test)
 
 #########################################################
 ### your code goes here ###
